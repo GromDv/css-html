@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gilroy-SemiBold", serif;
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  font-style: normal;
+  font-weight: 100;
+  src: url(fonts/Gilroy-font.ttf);
+}
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  font-style: normal;
+  font-weight: 500;
+  src: url(fonts/Gilroy-Medium.ttf);
+}
+.top {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin: 0 calc(50% - 808px);
+}
+.top-pad {
+  width: 310px;
+  margin-top: 40px;
+}
+.top-title {
+  font-family: "Gilroy-Bold", serif;
+  margin-top: 25px;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.top-text {
+  margin-top: 17px;
+  font-size: 15px;
+  line-height: 150%;
+  color: #666666;
+}
+.top-link {
+  margin-top: 25px;
+  font-size: 11px;
+  line-height: 150%;
+  font-weight: 600;
+}
+.top-cntr {
+  width: 370px;
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+  padding-bottom: 25px;
+  padding-left: 30px;
+}
+.main {
+  margin: 0 calc(50% - 810px);
+  padding-top: 92px;
+  background: #fafafa;
+}
+.main-top {
+  margin: 0 calc(50% - 361px) 55px;
+  text-align: center;
+}
+.mt-title {
+  font-size: 45px;
+  line-height: 53px;
+  font-weight: 600;
+  text-align: center;
+}
+.mt-text {
+  margin-top: 19px;
+  font-size: 16px;
+  line-height: 150%;
+  color: #666666;
+  text-align: center;
+}
+.main-pads {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 100px;
+}
+.main-pad {
+  width: 370px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mp-title {
+  font-family: "Gilroy-Bold";
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 25px;
+}
+.mp-text {
+  margin: 22px calc(50% - 155px) 39px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 150%;
+  color: #aaaaaa;
+}
+.mp-btn {
+  width: 150px;
+  height: 50px;
+  color: white;
+  background: #f25822;
+  box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+  border-radius: 50px;
+  font-size: 13px;
+  line-height: 150%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.vector {
+  margin: -3px 0 0 2px;
+}
+.shadow {
+  box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
