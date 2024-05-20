@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  margin: 0 calc(50% - 800px);
+}
+.header {
+  padding: 18px 240px 19px 230px;
+  background: #222222;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 111px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar {
+  width: 159px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.the-brand {
+  background: #f1e4e6;
+  display: flex;
+}
+.bar-brand {
+  margin-top: 290px;
+  margin-left: 63px;
+  display: flex;
+}
+.color-bar {
+  width: 12px;
+  height: 92;
+  background-color: #f16d7f;
+  margin-right: 16px;
+}
+.title-txt-bar {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  color: #222222;
+}
+.txt-bar {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #222222;
+}
+.txt-bar-colored {
+  color: #f16d7f;
+}
